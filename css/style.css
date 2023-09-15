@@ -1,0 +1,169 @@
+/*Estruturas do site*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #f4f2ec url(../imagens/fundo.png) repeat-x;
+    font: 12px "lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+a:link, a:active, a:visited {
+    text-decoration: none;
+    color: #af670a;
+}
+a:hover {
+    color: #227115;
+}
+#container {
+    width: 1080px;
+    margin: 0 auto;
+}
+/*Logo*/
+#logo a {
+    width: 248px;
+    height: 21px;
+    text-indent: -9999px;
+    display: block;
+    background: url(../imagens/logo.png) no-repeat;
+}
+#logo h1 {
+    float: left;
+}
+/*Barra de navegação*/
+header {
+    padding: 15px;
+    height: 55px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 20px;
+    float: right;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a:link {
+    display: block;
+    margin-right: 25px;
+    padding-bottom: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    border-bottom: 1px solid #535858;
+}
+/*Área principal*/
+#content {
+    width: 710px;
+    float: left;
+}
+aside {
+    width: 350px;
+    float: right;
+    background: #ebe7dd;
+    padding-bottom: 30px;
+}
+legend {
+    font-weight: bold;
+}
+label {
+    font-weight: bold;
+    cursor: pointer;
+}
+#visita input {
+    height: 20px;
+    width: 80px;
+    border: none;
+    font-size: 1em;
+    margin-bottom: 5px;
+}
+#visita input[type=date] {
+    width: 105px;
+}
+#visita input[type=submit] {
+    width: 100%;
+    background: #9b9271;
+    color: #fff;
+    height: 40px;
+    font-size: 1.2em;
+    cursor: pointer;
+    font-weight: bold;
+}
+#visita input[type=number] {
+    width: 30px;
+}
+#visita fieldset {
+    border: none;
+}
+#visita legend {
+    display: none;
+}
+section#visita {
+    background: #cdc8c1;
+    padding: 10px 27px 27px 27px;
+    margin-top: 10px;
+}
+h4 {
+    color: #86521a;
+    text-transform: uppercase;
+    padding-bottom: 3px;
+}
+section#galeria {
+    padding: 0 27px 0 27px;
+}
+section#galeria a {
+    display: block;
+    background: url(../imagens/fundo-foto.png) no-repeat;
+    float: left;
+    padding: 17px 15px 17px 15px;
+    margin: 10px 0 0 20px;
+}
+section#galeria img {
+    margin-left: 2px;
+    margin-top: 3px;
+}
+section#galeria h4 {
+    padding-top: 17px;
+}
+/*Página de contato*/
+#principal header {
+    width: 300px;
+    height: 80px;
+    background: #af670a;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.7em;
+    text-align: center;
+}
+#principal header h4 {
+    color: #fff;
+}
+#area-formulario {
+    float: left;
+    width: 710px;
+    margin-top: 15px;
+}
+#area-formulario input {
+    margin-bottom: 5px;
+}
+.submit {
+    padding: 5px;
+    background: #af670a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 1.3s;
+}
+.submit:hover {
+    background-color: #252217;
+}
+#area-redes {
+    width: 360px;
+    float: right;
+    margin-top: 15px;
+}
+#area-redes ul {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
